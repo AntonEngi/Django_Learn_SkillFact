@@ -1,0 +1,10 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+    <div class="text-center"><font size="8" color="green" face="comic sans ms">{{ flatpage.content }}</font></div>
+    <hr>
+<div align="center">
+    {% load static %}
+    <img src="{% static 'media/pngwing.jpg' %}" alt="My image">
+</div>
+{% endblock content %}
